@@ -1,0 +1,51 @@
+# ---------------------------
+# Spring Boot / Java
+# ---------------------------
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Gradle
+.gradle/
+build/
+
+# Eclipse
+.settings/
+.classpath
+.project
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+
+# ---------------------------
+# Application config / secrets
+# ---------------------------
+# Ne pas versionner les fichiers de configuration contenant des secrets
+oauth2client/src/main/resources/application.yml
+*.properties
+
+# ---------------------------
+# Logs
+# ---------------------------
+*.log
+logs/
+
+# ---------------------------
+# OS / System
+# ---------------------------
+.DS_Store
+Thumbs.db
+
+# ---------------------------
+# Node / npm (si utilisé)
+# ---------------------------
+node_modules/
+dist/
